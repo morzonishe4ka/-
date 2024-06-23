@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    
+}
+.nav-inv{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+.logo{
+    width: 128px;
+    height: 105px;
+    margin: 0px 30px 0 0 ;
+
+}
+h1{
+    font-size: 40px;
+    width: 60%;
+    font-weight:Bold;
+    color: #1BA8D4;
+    margin: 30px  10px;
+
+}
+.nav-id{
+    font-size: 30px;
+    margin: 30px ;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: black;
+    text-align: start;
+}
+.nav-id:hover{
+    color: #1BA8D4;
+    transition: 0.5s;
+}
+.bold-grey{
+    height: 5px;
+    border-radius: 20px;
+    background-color: #C9C9C9;
+    margin: 50px;
+}
+.img-stan{
+    /* margin: 50px; */
+    width: 100%;
+    height: 800px;
+    order: 100;
+}
+.main-blur{
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,20%);
+    backdrop-filter:blur(10px) ;
+    background-color: #ffffffa8;
+    z-index: 1;
+    height: 200px;
+    width: 600px;
+}
+.blur-text{
+    position: relative;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: #00c3ff;
+    /* margin: 10px; */
+    text-align: center;
+}
+.main-direction{
+    display: flex;
+    background: url("img/2050e02s-960.jpg") no-repeat center/cover  ;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 65%;
+    height: 800px;
+}
+
+.direction-blur{
+    background-color: #ffffffd6;
+    height: 40%;
+    width: 40%;
+    margin: 20px;
+}
+/* .blur-text:hover{
+    color:#5B3E44 ;
+    transition: 1s;
+} */
+.company{
+    background-color: #39a1c17a;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    font-size: 24px;
+    padding: 1px;
+}
+.com-text{
+    margin: 50px;
+}
+.como{
+    margin: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+.impro{
+    margin: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+.hru{
+    height: 5px;
+    border-radius: 20px;
+    background-color: #C9C9C9;
+    margin: 50px;
+
+
+
+}
+.important{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    font-size: 24px;
+    padding: 1px;
+
+}
+.vac{
+    width: 500px;
+    height: 600px;
+    background-color: #D9D9D9;
+    font-size: 25px;
+    margin: 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index:10 ;
+}
+.hrusha{
+    height: 5px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+h3{
+    padding: 20px;
+}
+.vacavaca{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+h3:hover{
+    padding: 20px;
+}
+.eyey{
+    width: 500px;
+    height: 325px;
+    background-color: #D9D9D9;
+    font-size: 25px;
+    margin: 20px 20px  20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: absolute;
+    top:0px;
+    left: 0px;
+
+}
+.vac h3{
+    padding-left: 20px;
+}
+#worker_1_btn{
+    padding-top: 40px;
+}
+#worker_2{
+    top:0px;
+
+}
+#worker_3{
+    top:140px;
+
+}
+#worker_4{
+    top:210px;
+
+}
+#worker_5{
+    top:250px;
+
+}
+.directoto{
+    background-color: #BEBEBE;
+    width: 450px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 15px 15px ;
+}
+h4{
+    color: #2095B9;
+    text-align: center;
+    font-size: 20px ;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.dir-text{
+    font-size: 28px;
+    margin: 15px;
+}
+.vac-parent{
+    position: relative;
+}
+.contacs{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+.address{
+    padding: 15px;
+    width: 600px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin: 10px;
+    transform: translateX(-550px);
+}
+.secret{
+    position:relative;
+    right: -500px;
+    padding: 15px;
+    width: 600px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin: 10px;
+
+
+}
+.gmail{
+    
+    padding: 15px;
+    width: 600px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: -540px;
+}
+.foot-text{
+    font-size:30px ;
+    /* text-align: center; */
+}
+.invisible{
+    width: 600px;
+    margin: auto;
+    /* border: red solid 1px; */
+
+}
+.hr{
+    background-color: #ebebeb9b;
+    height: 5px;
+    border-radius: 20px;
+    margin: 50px;
+}
+.metall{
+    font-size: 17px;
+    color: #B4B4B4;
+}
+.year{
+    font-size: 17px;
+    color: #B4B4B4;
+    margin: 20px;
+    text-align: center;
+}
+
+@media(max-width:932px){
+    h1{
+        font-size: 40px;
+        white-space: nowrap;
+
+    }
+    .nav{
+        width: 932px;
+        position: inline;
+    }
+    .nav a{
+        margin: 30px;
+        display: inline;
+        white-space: nowrap;
+    }
+
+    .main-blur{
+        width: 300px;
+    }
+    .bold-grey{
+        width: 940px;
+        text-align: center;
+        margin: 40px ;
+    }
+    .img-stan{
+        width: 1102px;
+        height: 500px; 
+    }
+    .main-blur{
+        width: 450px;
+        margin: 50px 00px 00px 300px;
+    }
+    .main-direction{
+        width: 950px;
+        white-space: wrap;
+        margin: 50px;
+    }
+    .blur-text{
+        font-size: 32px;
+
+    }
+    .hru{
+        width: 940px;
+        text-align: center;
+        margin: 40px ;
+    }
+    .como{
+        white-space: nowrap;
+        padding:  0  0  0 300px;
+    }
+    .impro{
+        white-space: nowrap;
+        padding:  0  0  0 400px;
+    }
+    .vacavaca{
+        white-space: nowrap;
+        padding:  0  0  0 400px;
+    }
+    .contacs{
+        white-space: nowrap;
+        padding:  0  0  0 390px;
+    }
+    .gmail{
+        margin-left: -1px;
+    }
+    .secret{
+        right: -400px;
+
+    }
+    .address{
+        transform: translateX(-1px);
+
+    }
+    .important {
+        text-align: center;
+        width: 1050px;
+        padding: 5px;
+    }
+    .com-back{
+        width: 1050px;
+    }
+} 
